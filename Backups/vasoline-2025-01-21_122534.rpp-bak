@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.30/OSX64-clang" 1737458986
+<REAPER_PROJECT 0.1 "7.30/OSX64-clang" 1737458734
   <NOTES 0 2
   >
   RIPPLE 0
@@ -6,7 +6,7 @@
   AUTOXFADE 129
   ENVATTACH 3
   POOLEDENVATTACH 0
-  MIXERUIFLAGS 11 52
+  MIXERUIFLAGS 11 48
   ENVFADESZ10 40
   PEAKGAIN 1
   FEEDBACK 0
@@ -19,8 +19,8 @@
   PANMODE 3
   PANLAWFLAGS 3
   CURSOR 0
-  ZOOM 11.20073959365846 0 0
-  VZOOMEX 7.92025852 0
+  ZOOM 106.93370645323922 0 0
+  VZOOMEX 5.69127178 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -51,7 +51,7 @@
     ZXZhdxgAAQ==
   >
   LOCK 1
-  <METRONOME 6 2
+  <METRONOME 7 2
     VOL 3.981072 1.990536
     BEATLEN 4
     FREQ 1760 880 1
@@ -218,14 +218,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 3.98107171 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -411,7 +411,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {E72BE114-CE03-B349-8BD8-B7DBBD72847D}
       IID 218
       NAME "CLICK untitled MIDI item"
@@ -1542,300 +1542,6 @@
         CFGEDITVIEW 3840 0.07543 75 13 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 9 1 1 1 1 1 0.5 22 102 1270 1005 1 0 0 2 0 0 0 1 0 0.5 0 0 1 64
-      >
-    >
-  >
-  <TRACK {2D4E34B4-AAD8-D644-97B8-49A58F052913}
-    NAME CLICK
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {2D4E34B4-AAD8-D644-97B8-49A58F052913}
-    PERF 0
-    MIDIOUT -1
-    <MIDINOTENAMES
-      0 0 "" 0 0
-      0 1 "" 0 1
-      0 2 "" 0 2
-      0 3 "" 0 3
-      0 4 "" 0 4
-      0 5 "" 0 5
-      0 6 "" 0 6
-      0 7 "" 0 7
-      0 8 "" 0 8
-      0 9 "" 0 9
-      0 10 "" 0 10
-      0 11 "" 0 11
-      0 12 "" 0 12
-      0 13 "" 0 13
-      0 14 "" 0 14
-      0 15 "" 0 15
-      0 16 "" 0 16
-      0 17 "" 0 17
-      0 18 "" 0 18
-      0 19 "" 0 19
-      0 20 "" 0 20
-      0 21 "" 0 21
-      0 22 "" 0 22
-      0 23 "" 0 23
-      0 24 "" 0 24
-      0 25 "" 0 25
-      0 26 "" 0 26
-      0 27 "" 0 27
-      0 28 "" 0 28
-      0 29 "" 0 29
-      0 30 "" 0 30
-      0 31 "" 0 31
-      0 32 "" 0 32
-      0 33 "" 0 33
-      0 34 "" 0 34
-      0 35 "" 0 35
-      0 36 Kick 0 36
-      0 37 Snare 0 37
-      0 38 "Closed Hi-Hat" 0 38
-      0 39 "Open Hi-Hat" 0 39
-      0 40 Cymbal 0 40
-      0 41 "Low Tom" 0 41
-      0 42 "Mid Tom" 0 42
-      0 43 "High Tom" 0 43
-      0 44 "Low Conga" 0 44
-      0 45 "Mid Conga" 0 45
-      0 46 "High Conga" 0 46
-      0 47 "Hand Clap" 0 47
-      0 48 Clave 0 48
-      0 49 Maraca 0 49
-      0 50 Cowbell 0 50
-      0 51 "Rim Shot" 0 51
-      0 52 "" 0 52
-      0 53 "" 0 53
-      0 54 "" 0 54
-      0 55 "" 0 55
-      0 56 "" 0 56
-      0 57 "" 0 57
-      0 58 "" 0 58
-      0 59 "" 0 59
-      0 60 "" 0 60
-      0 61 "" 0 61
-      0 62 "" 0 62
-      0 63 "" 0 63
-      0 64 "" 0 64
-      0 65 "" 0 65
-      0 66 "" 0 66
-      0 67 "" 0 67
-      0 68 "" 0 68
-      0 69 "" 0 69
-      0 70 "" 0 70
-      0 71 "" 0 71
-      0 72 "" 0 72
-      0 73 "" 0 73
-      0 74 "" 0 74
-      0 75 "" 0 75
-      0 76 "" 0 76
-      0 77 "" 0 77
-      0 78 "" 0 78
-      0 79 "" 0 79
-      0 80 "" 0 80
-      0 81 "" 0 81
-      0 82 "" 0 82
-      0 83 "" 0 83
-      0 84 "" 0 84
-      0 85 "" 0 85
-      0 86 "" 0 86
-      0 87 "" 0 87
-      0 88 "" 0 88
-      0 89 "" 0 89
-      0 90 "" 0 90
-      0 91 "" 0 91
-      0 92 "" 0 92
-      0 93 "" 0 93
-      0 94 "" 0 94
-      0 95 "" 0 95
-      0 96 "" 0 96
-      0 97 "" 0 97
-      0 98 "" 0 98
-      0 99 "" 0 99
-      0 100 "" 0 100
-      0 101 "" 0 101
-      0 102 "" 0 102
-      0 103 "" 0 103
-      0 104 "" 0 104
-      0 105 "" 0 105
-      0 106 "" 0 106
-      0 107 "" 0 107
-      0 108 "" 0 108
-      0 109 "" 0 109
-      0 110 "" 0 110
-      0 111 "" 0 111
-      0 112 "" 0 112
-      0 113 "" 0 113
-      0 114 "" 0 114
-      0 115 "" 0 115
-      0 116 "" 0 116
-      0 117 "" 0 117
-      0 118 "" 0 118
-      0 119 "" 0 119
-      0 120 "" 0 120
-      0 121 "" 0 121
-      0 122 "" 0 122
-      0 123 "" 0 123
-      0 124 "" 0 124
-      0 125 "" 0 125
-      0 126 "" 0 126
-    >
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 169 315 716 200
-      SHOW 0
-      LASTSEL 2
-      DOCKED 0
-      BYPASS 0 0 0
-      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.vst.dylib 0 CLAVE 1920167789<56535472736F6D72656173616D706C6F> ""
-        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABSAQAAAQAAAAAAEAA=
-        L1VzZXJzL25pZ2dhL3JlYXBlci1tZWRpYS9kai1lcm5pYS9raWxsaW5nLWluLXRoZS1uYW1lLzgwOC1DbGF2ZTMud2F2AAAAAAAAAPA/AAAAAAAA4D8AAAAAAADwPwwG
-        g8FgMNg/DAaDwWAw2D+amZmZmZmxP83MzMzMzOs/AAAAAAAAAAAAAAAAAAAAAPyp8dJNYkA//Knx0k1iQD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAA
-        AAAAAOA/AQAAAAAAAAAAAAAAAAAAAAAA8D9AAAAAVVVVVVVVxT//////CAQCgUAggD8AAAAAAADwPwAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AADOpCEhGmWQPwAAAAAAAPA//Knx0k1iMD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
-        AFByb2dyYW0gMQAQAAAA
-      >
-      FLOATPOS 0 0 0 0
-      FXID {13BAE6EE-780E-5043-9310-387CCBA92A2B}
-      WAK 0 0
-      BYPASS 0 0 0
-      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.vst.dylib 0 COWBELL 1920167789<56535472736F6D72656173616D706C6F> ""
-        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABUAQAAAQAAAAAAEAA=
-        L1VzZXJzL25pZ2dhL3JlYXBlci1tZWRpYS9kai1lcm5pYS9raWxsaW5nLWluLXRoZS1uYW1lLzgwOC1Db3diZWxsNS53YXYAAAAAAAAA8D8AAAAAAADgPwAAAAAAAPA/
-        TSaTyWQy2T9NJpPJZDLZP5qZmZmZmbE/zczMzMzM6z8AAAAAAAAAAAAAAAAAAAAA/Knx0k1iQD/8qfHSTWJAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/
-        AAAAAAAA4D8BAAAAAAAAAAAAAAAAAAAAAADwP0AAAABVVVVVVVXFP/////8IBAKBQCCAPwAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAM6kISEaZZA/AAAAAAAA8D/8qfHSTWIwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        AFByb2dyYW0gMQAQAAAA
-      >
-      FLOATPOS 0 0 0 0
-      FXID {E87A5686-DD4C-3848-BF75-9FC42685CF5D}
-      WAK 0 0
-      BYPASS 1 0 0
-      <JS sstillwell/eventhorizon2 ""
-        0 -6.4 20 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-      >
-      FLOATPOS 0 0 0 0
-      FXID {460DD1DF-BBEF-1048-A89F-9E5866F71B7B}
-      WAK 0 0
-    >
-    <ITEM
-      POSITION 1.43724623621142
-      SNAPOFFS 0
-      LENGTH 2.8224234965214
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {96C0773D-FD18-5147-951B-0DBCB58AA2F7}
-      IID 218
-      NAME "CLICK untitled MIDI item"
-      VOLPAN 1 0 1 -1
-      SOFFS 1.43724623621142 4
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {428EDC3D-B331-094C-BA7C-B8A94FE0E146}
-      <SOURCE MIDI
-        HASDATA 1 960 QN
-        CCINTERP 32
-        POOLEDEVTS {7A3F6DBB-C18C-5C43-B916-DD28BE0BF10D}
-        E 3840 90 30 7f
-        E 0 90 32 7f
-        E 120 80 30 00
-        E 0 80 32 00
-        E 840 90 30 7f
-        E 120 80 30 00
-        E 840 90 30 7f
-        E 0 90 32 7f
-        E 120 80 30 00
-        E 0 80 32 00
-        E 840 90 30 7f
-        E 120 80 30 00
-        E 840 90 30 7f
-        E 0 90 32 7f
-        E 120 80 30 00
-        E 0 80 32 00
-        E 840 90 30 7f
-        E 0 90 32 7f
-        E 120 80 30 00
-        E 0 80 32 00
-        E 840 90 30 7f
-        E 0 90 32 7f
-        E 120 80 30 00
-        E 0 80 32 00
-        E 840 90 30 7f
-        E 0 90 32 7f
-        E 120 80 30 00
-        E 0 80 32 00
-        E 840 b0 7b 00
-        CCINTERP 32
-        CHASE_CC_TAKEOFFS 1
-        GUID {F3383F87-69A6-4F94-B676-8272D98134A3}
-        IGNTEMPO 0 120 4 4
-        SRCCOLOR 191
-        VELLANE -1 100 0 0 1
-        CFGEDITVIEW 150942.06382 0.07543 75 13 0 -1 0 0 0 0.5
-        KEYSNAP 0
-        TRACKSEL -252
-        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 9 1 1 1 1 1 0.5 22 102 1270 1005 1 0 0 2 0 0 0 1 0 0.5 0 0 1 64
-      >
-    >
-    <ITEM
-      POSITION 4.25966973273282
-      SNAPOFFS 0
-      LENGTH 185.89828198379954
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {ED5F0CF6-4CBA-304B-9BD8-B8EB665A4C4D}
-      IID 218
-      NAME "CLICK untitled MIDI item"
-      VOLPAN 1 0 1 -1
-      SOFFS 0 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9E3890E4-B4E2-2F4F-9080-D9B6782AD2F3}
-      <SOURCE MIDI
-        HASDATA 1 960 QN
-        CCINTERP 32
-        POOLEDEVTS {7C926CF6-1AE1-9E4E-862F-255573DB0B39}
-        E 0 90 30 7f
-        E 120 80 30 00
-        E 1800 90 30 7f
-        E 120 80 30 00
-        E 1800 b0 7b 00
-        CCINTERP 32
-        CHASE_CC_TAKEOFFS 1
-        GUID {1CA369FF-F9D9-B140-82F8-B55F3E16B1AD}
-        IGNTEMPO 0 120 4 4
-        SRCCOLOR 195
-        VELLANE -1 100 0 0 1
-        CFGEDITVIEW 0 0.07543 75 13 0 -1 0 0 0 0.5
-        KEYSNAP 0
-        TRACKSEL -252
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         CFGEDIT 1 1 0 1 0 9 1 1 1 1 1 0.5 22 102 1270 1005 1 0 0 2 0 0 0 1 0 0.5 0 0 1 64
       >
